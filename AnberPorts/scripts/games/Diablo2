@@ -16,7 +16,7 @@ unzip -qq -o diablo2.zip -d ../
 mkdir -p ~/.config/OpenDiablo2
 cp ../diablo2/config.json ~/.config/OpenDiablo2/
 
-dialog --backtitle "System" --infobox "\nClearning up ..." 5 55 > /dev/tty1
+dialog --backtitle "System" --infobox "\nCleaning up ..." 5 55 > /dev/tty1
 rm -rf weston.zip
 rm -rf diablo2.zip
 
